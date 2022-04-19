@@ -1,0 +1,32 @@
+.header1{
+    background-color: black;
+    color: White;
+}
+.header2{
+    color: cyan;
+    background-color: black;
+}
+#blackbox{
+    display: block;
+    background-color: black;
+    font-family: monospace;
+    font-size: 30pt;
+}
+h2{
+    text-align: center;
+    background-color: rebeccapurple;
+    display: block;
+    color: white;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: 100;
+}
+h3{
+    text-align: right;
+    display: block;
+    background-color: powderblue;
+    color:navy;
+    font-family: monospace;
+    text-decoration: underline;
+
+}
