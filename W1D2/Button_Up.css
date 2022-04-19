@@ -1,0 +1,27 @@
+.button1{
+    background-color: silver;
+    color: aquamarine;
+    border-color: aquamarine;
+    border-radius: 15px;
+    padding: 5px 35px;
+    border-width: 1px;
+    font-size: small;
+}
+.button2{
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin-top: 10px;
+    color: white;
+    border-width: 0px;
+    font-size: larger;
+}
+.button3{
+    font-weight: lighter;
+    background-color: blue;
+    color: white;
+    border-color: black;
+    border-width: 3px;
+    margin-top: 10px;
+    font-size: large;
+    padding: 5px 20px;
+}
