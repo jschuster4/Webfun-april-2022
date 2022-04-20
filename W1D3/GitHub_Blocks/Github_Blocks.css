@@ -1,0 +1,50 @@
+
+.toprow{
+    background-color: skyblue;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.midrow{
+    background-color: pink;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.botrow{
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.container{
+    background-color: aliceblue;
+    width: 900px;
+    margin: 0px auto;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+}
+.rows{
+    display: flex;
+    flex-direction: column;
+}
+.images{
+    height: 200px;
+}
+.link{
+    text-align: center;
+    font-weight: light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link > h5{
+    margin-right: 10px;
+}
