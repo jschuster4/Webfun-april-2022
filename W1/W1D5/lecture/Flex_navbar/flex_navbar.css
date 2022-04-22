@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    background-color: rgb(61, 60, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.nav-title{
+    margin-left: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-right: 20px;
+
+
+}
+.btn{
+    background-color: rgb(35, 144, 152);
+    color: white;
+    padding: 5px 8px;
+    box-shadow: 5px;
+}
+.active{
+    font-weight: bolder;
+}
+a{
+    color: white;
+}
