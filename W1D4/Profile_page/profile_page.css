@@ -1,0 +1,190 @@
+/* .css code for top banner */
+.bannerContainer{
+    background-color: black;
+    height: 100px;
+    margin-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile{
+    margin-right: -30px;
+}
+.signOut{
+    display: flex;
+    background-color: rgb(17, 146, 179);
+    margin-left: 200px;
+    color: white;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Gill Sans';
+    font-size: large;
+}
+.banOptions{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.banOptions > h3{
+    margin-right: 20px;
+}
+
+
+
+/* .css code for the profile section of the page */
+
+.usercard{
+    border: solid grey;
+}
+.bluebar{
+    background-color: rgb(17, 146, 179);
+    padding-left: 25px;
+    padding-top: 70px;
+}
+.bluebar > img{
+    height: 100px;
+    margin-bottom: -50px;
+    border-radius: 50%;
+}
+.name{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+.location > img{
+    height: 16px;
+    margin-right: 5px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.jobname > p{
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.editprof{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.editprof > img{
+    height: 16px;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+/* css code for the education banner */
+.education{
+    border: solid grey;
+    margin-top: 20px;
+}
+.blackbanner{
+    background-color: rgb(64, 63, 63);
+    padding: 3px 25px;
+    color: white;
+    margin-bottom: 15px;
+    display: flex;
+}
+.edBody{
+    margin-left: 25px;
+}
+.userlist{
+    flex-direction: column;
+}
+
+/* connection request .css code */
+.requests{
+    border: solid grey;
+    margin-bottom: 25px;
+}
+.numRequests > h3{
+    background-color: grey;
+    color: black;
+    border-radius: 50%;
+    margin-right: 25px;
+    padding: 10px;
+    display: flex;
+}
+.conReq{
+    display: flex;
+    align-items: center;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conImages{
+    display: flex;
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 50px;
+}
+.acceptordec{
+    justify-content: space-around;
+}
+.accept, .decline{
+    height:20px;
+    margin: 0px 10px;
+    align-items: center;
+}
+.username{
+    display: flex;
+}
+.picandname{
+    display: flex;
+}
+
+/* code for  your connections .css*/
+
+.numconnections > h3{
+    background-color: grey;
+    color: black;
+    border-radius: 50%;
+    margin-right: 25px;
+    padding: 10px;
+    display: flex;
+}
+.yourconnections{
+    display: flex;
+    align-items: center;
+}
+.connectioncontainer{
+    display: flex;
+    flex-direction: column;
+}
+.user1{
+    display: flex;
+}
+.container{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.leftcolumn{
+    margin-left: 20%;
+    margin-right: 25px;
+    flex: 3;
+}
+.rightcolumn{
+    margin-right: 20%;
+    flex: 1;
+}
+.connections{
+    border: solid grey;
+}
+.viewmore{
+    display: flex;
+    justify-content: left;
+    border: grey solid;
+    padding: 5px;
+}
