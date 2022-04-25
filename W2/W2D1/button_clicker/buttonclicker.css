@@ -1,0 +1,110 @@
+
+.headcontainer{
+    background-color: rgb(170, 168, 168);
+    margin: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+    align-items: center;
+}
+.headercontainer > h1 {
+    color: black;
+}
+.search{
+    display: flex;
+    color: rgb(170, 168, 168);
+    background-color: white;
+    border: 5px solid black;
+    width: 400px;
+
+}
+.button1{
+    background-color: rgb(76, 76, 251);
+    padding: 5px 10px;
+    color: white;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+}
+.pagecontainer{
+    display: flex;
+}
+.leftcolumn{
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+    flex: 2;
+}
+.def1, .def2{
+    border: 5px solid black;
+    padding: 20px;
+    margin-right: 20px;
+}
+.def1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.def2{
+    display: flex;
+}
+.wordinfo{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* why does this not space it evenly up and down */
+}
+.wordinfo > h4{
+    font-style: italic;
+}
+.italic{
+    font-style: italic;
+}
+.definition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.likebutton{
+    background-color: rgb(199, 184, 27);
+    color: black;
+    padding: 5px 10px;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+}
+.blueunderline{
+    color: blue;
+    text-decoration: underline;
+}
+.rightcolumn{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 0px 15px;
+}
+.you{
+    font-weight: bolder;
+}
+.defbutton{
+    display: flex;
+    background-color: seagreen;
+    padding: 5px 20px;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+}
+.defcard{
+    border: 5px solid black;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.lastbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
