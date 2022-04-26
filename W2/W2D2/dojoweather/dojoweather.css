@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headerbar{
+    background-color: lightblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+}
+.cities{
+    display: flex;
+}
+.cities > h3{
+    margin-left: 50px;
+}
+.cityheaderbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 150px;
+}
+.forcast{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-top: 3px solid black;
+    padding-top: 15px;
+}
+.dayofweek{
+    border: black solid 3px;
+    padding: 10px;
+    background-color: rgb(163, 163, 163);
+}
+.dayandweather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.temp{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+.hightemp{
+    color: red;
+}
+.lowtemp{
+    color: blue;
+}
+.dayandweather > img{
+    border-radius: 50%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.cookietime{
+    display: flex;
+    margin: 15px 150px;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+}
+.acceptbutton{
+    background-color: lightblue;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    padding: 0px 10px;
+    height: 30px;
+}
+.blueunderline{
+    color: blue;
+    text-decoration: underline;
+}

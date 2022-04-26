@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dojoweather.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="headerbar">
+        <h1>DojoWeather</h1>
+        <div class="cities">
+            <h3 onclick="alert('you chose another city')">Burbank</h3>
+            <h3 onclick="alert('you chose another city')">Chicago</h3>
+            <h3 onclick="alert('you chose another city')">Dallas</h3>
+        </div>        
+    </div>
+    <div class="cityheaderbar">
+        <h2>San Jose</h2>
+        <div class="showtempin">
+            <label>show temperature in</label>
+            <select class="tempdropdown" onchange="changetemps1()">
+                <option>C˚</option>
+                <option >F˚</option>
+            </select>
+        </div>
+    </div>
+    <div class="forcast">
+        <div class="dayofweek">
+            <div class="dayandweather">
+                <h3>Today</h3>
+                <img src="some_rain.png" alt="cloudy with rain">
+                <p>some rain</p>
+            </div>
+            <div class="temp">
+                <h3 id="temp1h" class="hightemp" >24˚</h3>
+                <h3 id="temp1l" class="lowtemp" >18˚</h3>
+            </div>
+        </div>
+        <div class="dayofweek">
+            <div class="dayandweather">
+                <h3>Tomorrow</h3>
+                <img src="some_sun.png" alt="sunny">
+                <p>some sun</p>
+            </div>
+            <div class="temp">
+                <h3 id="temp2h" class="hightemp" >27˚</h3>
+                <h3 id="temp2l" class="lowtemp" >19˚</h3>
+            </div>
+            
+        </div>
+        <div class="dayofweek">
+            <div class="dayandweather">
+                <h3>Friday</h3>
+                <img src="some_clouds.png" alt="cloudy">
+                <p>some clouds</p>
+            </div>
+                <div class="temp">
+                    <h3 class="hightemp" id="temp3h">21˚</h3>
+                    <h3 class="lowtemp" id="temp3l">16˚</h3>
+                </div>
+            
+        </div>
+        <div class="dayofweek">
+            <div class="dayandweather">
+                <h3>Saturday</h3>
+                <img src="some_sun.png" alt="sunny">
+                <p>some sun</p>
+            </div>
+            <div class="temp">
+                <h3 class="hightemp" id="temp4h">26˚</h3>
+                <h3 class="lowtemp" id="temp4l">21˚</h3>
+            </div>
+        </div>
+    </div>
+    <div class="cookietime">
+        <img src="cookie.png" alt="cookie picture">
+        <div class="cookiewords">
+            <h3>Stop! Cookie time</h3>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic <span class="blueunderline">Read more...</span></p>
+        </div>
+        <button class="acceptbutton" onclick="getridof(this)">I Accept</button>
+
+    </div>
+
+    <script src="dojoweather.js"></script>
+</body>
+</html>
